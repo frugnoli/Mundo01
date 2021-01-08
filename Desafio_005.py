@@ -1,0 +1,6 @@
+print("")
+print("\033[1;31mINFORME UM NÚMERO INTEIRO E MOSTRE O SEU ANTECESSOR E O SEU SUCESSOR.\033[m")
+num = int(input("Informe um número inteiro:\033[1;32m "))
+print("")
+print("\033[mAnalisando o valor de \033[1;32m{}\033[m, o antecessor é \033[1;32m{}\033[m e o sucessor é \033[1;32m{}\033[m.".format(num, (num - 1), (num + 1)))
+print("=" * 100) 
