@@ -1,0 +1,5 @@
+print("")
+print("\033[1;31mMOSTRE O SEU DOBRO, TRIPLO E A RAIZ QUADRADA.\033[m")
+num = int(input("Informe um número inteiro:\033[1;32m "))
+print("\033[mAnalisando o valor de \033[1;32m{}\033[m, o seu dobro é \033[1;32m{}\033[m, triplo \033[1;32m{}\033[m e a raiz quadrada \033[1;32m{:.2f}\033[m.".format(num, (num * 2), (num * 3), (num ** (1/2))))
+print("=" * 100)
