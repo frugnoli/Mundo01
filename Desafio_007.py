@@ -1,0 +1,5 @@
+print("\033[1;31mDesenvolva um programa que leia duas notas de um aluno, calcule e mostre a sua média.\033[m")
+n1 = float(input("Insira a nota AV1: "))
+n2 = float(input("Insira a nota AV2: "))
+print("A nota AV1 foi {:.2f}\ne a nota AV2 foi {:.2f}\nsendo assim, a média foi {:.2f}.".format(n1, n2, ((n1 + n2) / 2)))
+print("=" * 100)
